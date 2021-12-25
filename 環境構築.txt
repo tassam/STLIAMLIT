@@ -1,0 +1,27 @@
+
+##
+# 環境構築
+##
+
+##
+# streamlit インストール
+##
+pip install streamlit
+
+# 不足モジュールインストール
+pip install module名==version
+
+# 初回起動確認
+streamlit hello
+
+
+##
+# 仮想環境作成
+##
+python3 -m venv venv_streamlit
+
+# 仮想化環境へ
+source activate
+
+# Streamlit実行
+streamlit run main.py
